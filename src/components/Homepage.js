@@ -1,7 +1,7 @@
 import './comp.css';
 import React, { useEffect, useState } from "react";
 import styled from 'styled-components'
-import ReactPlayer from "react-player";
+import ReactPlayer from "react-player/lazy";
 import {javascriptData} from './data'
 
 const Container = styled.div`
