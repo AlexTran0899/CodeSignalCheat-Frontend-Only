@@ -1,0 +1,70 @@
+const javascriptData = {
+    "CenturyFromYear":"https://www.youtube.com/watch?v=BMKVzk-geY0",
+    "CheckPalindrome":"https://www.youtube.com/watch?v=IVoOmPDCHCM",
+    "adjacentElementsProduct":"https://www.youtube.com/watch?v=blCiiW3cWuE",
+    "ShapeArea":"https://www.youtube.com/watch?v=-Tw8n-_jHQI",
+    "MakeArrayConsecutive2":"https://www.youtube.com/watch?v=DkOTJRemqzY",
+    "AlmostIncreasingSequence":"https://www.youtube.com/watch?v=smuKknnNZ3w",
+    "MatrixElementsSum":"https://www.youtube.com/watch?v=mN_nZhJRNuo",
+    "AllLongestStrings":"https://www.youtube.com/watch?v=5aO-EunylgQ",
+    "CommonCharacterCount":"https://www.youtube.com/watch?v=EMjv-VKAnEE",
+    "IsLucky":"https://www.youtube.com/watch?v=e45wqk1zUgE",
+    "SortByHeight":"https://www.youtube.com/watch?v=LHn8WEj3CfU",
+    "ReverseParenthese":"https://www.youtube.com/watch?v=IHGM97lvRGk",
+    "AlternatingSums":"https://www.youtube.com/watch?v=ys9AcF63jQE",
+    "AddBorder":"https://www.youtube.com/watch?v=o0ElGkQzqLw",
+    "AreSimilar?":"https://www.youtube.com/watch?v=MDVYZpUKFWI",
+    "ArrayChange":"https://www.youtube.com/watch?v=9kLmJnNiixE",
+    "palindromeRearranging":"https://www.youtube.com/watch?v=JC25FQ9hef8",
+    "AreEquallyStrong":"https://www.youtube.com/watch?v=VGfYf9o3mQo",
+    "ArrayMaximalAdjacentDifference":"https://www.youtube.com/watch?v=c1xDc8pp__o",
+    "IsIPv4Address":"https://www.youtube.com/watch?v=56VDg5gx2_0",
+    "AvoidObstacles":"https://www.youtube.com/watch?v=l7H1qO8NjvI",
+    "BoxBlur":"https://www.youtube.com/watch?v=mmPOCGRLgeA",
+    "Minesweeper":"https://www.youtube.com/watch?v=TOaPj5YEFYs",
+    "ArrayReplace":"https://www.youtube.com/watch?v=imhEc7iymds",
+    "evenDigitsOnly":"https://www.youtube.com/watch?v=nFt4th0XRGg",
+    "variableName":"https://www.youtube.com/watch?v=ZK4XPW9sYeQ",
+    "alphabeticShift":"https://www.youtube.com/watch?v=EigpqgFj-js",
+    "chessBoardCellColor":"https://www.youtube.com/watch?v=Wgn50_xkAG4",
+    "CircleofNumbers":"https://www.youtube.com/watch?v=vesPC-NUcb0",
+    "depositProfit":"https://www.youtube.com/watch?v=opHFArgojyk",
+    "absoluteValuesSumMinimization":"https://www.youtube.com/watch?v=j1gD8IJZBLY",
+    "stringsRearrangement":"",
+    "ExtractEachKth":"https://www.youtube.com/watch?v=oiGE5ffCyjU",
+    "firstDigit":"https://www.youtube.com/watch?v=0yDiNyLm8-s",
+    "differentSymbolsNaive":"https://www.youtube.com/watch?v=ixPNLP2TTZ0",
+    "arrayMaxConsecutiveSum":"",
+    "growingPlant":"https://www.youtube.com/watch?v=kBmSTGzop_Q",
+    "KnapsackLight":"https://www.youtube.com/watch?v=WkGd9C9hO9M",
+    "longestDigitsPrefix":"https://www.youtube.com/watch?v=0WXOG-J-8Qg",
+    "digitDegree":"https://www.youtube.com/watch?v=YuDtdIIDigM",
+    "BishopandPawn":"https://www.youtube.com/watch?v=zyQa98tPIZg",
+    "isBeautifulString":"",
+    "FindEmailDomain":"",
+    "buildPalindrome":"",
+    "IsMAC48Address?":"",
+    "isDigit":"",
+    "lineEncoding":"",
+    "chessKnight":"",
+    "deleteDigit":"",
+    "longestWord":"",
+    "ValidTime":"",
+    "sumUpNumbers":"",
+    "DifferentSquares":"",
+    "digitsProduct":"",
+    "FileNaming":"",
+    "messageFromBinaryCode":"",
+    "spiralNumbers":"",
+    "Sudoku":""
+
+
+
+
+
+
+
+
+
+}
+export{javascriptData};
