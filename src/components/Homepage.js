@@ -18,6 +18,7 @@ const Homepage = (props) => {
     const [link, setLink] = useState(false)
     const [data, setData] = useState(javascriptData)
     const [playing, setplaying] = useState("")
+    const [interval, setInterval] = useState(1)
 
     const handleKeyDown = async (e) => {
         setplaying("")
