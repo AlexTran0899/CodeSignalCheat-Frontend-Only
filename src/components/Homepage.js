@@ -17,16 +17,20 @@ const Homepage = (props) => {
     const [predict, setPredict] = useState("")
     const [link, setLink] = useState(false)
     const [data, setData] = useState(javascriptData)
+    const [playing, setplaying] = useState("")
 
     const handleKeyDown = async (e) => {
+        setplaying("")
         if (e.key === 'Tab') {
             e.preventDefault()
             setValue({ text: predict })
+            setLink(data[predict])
         }
         if (e.key === 'Enter'){
             e.preventDefault()
+            setplaying("playing")
             await setLink(data[value.text])
-            window.scrollTo(0,1000)
+            window.scrollTo(0,5000)
         }
         if (e.key === "\\"){
             e.preventDefault()
@@ -70,10 +74,10 @@ const Homepage = (props) => {
             {link ? <ReactPlayer
                 url={link}
                 className="react-player"
-                playing
+                playing={playing}
                 width="100%"
                 height="100%"
-                controls={false}
+                controls
             /> : null}
         </Container>
 
