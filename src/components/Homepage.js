@@ -50,7 +50,7 @@ const Homepage = (props) => {
 
     const getHighlightedText = () => {
         if (!predict && !value) {
-            return <span>Press <b>tab</b> to autoselect</span>
+            return <span>Press <b>tab</b> to Autocomplete</span>
         }
         if (!predict) {
             return <span><b>404</b> 😢</span>
