@@ -2,7 +2,7 @@ import './comp.css';
 import React, { useEffect, useState } from "react";
 import styled from 'styled-components'
 import ReactPlayer from "react-player/lazy";
-import {javascriptData} from './data'
+import { javascriptData } from './data'
 
 const Container = styled.div`
     background: #2B3D52;
@@ -18,7 +18,6 @@ const Homepage = (props) => {
     const [link, setLink] = useState(false)
     const [data, setData] = useState(javascriptData)
     const [playing, setplaying] = useState("")
-    const [interval, setInterval] = useState(1)
 
     const handleKeyDown = async (e) => {
         setplaying("")
@@ -27,13 +26,13 @@ const Homepage = (props) => {
             setValue({ text: predict })
             setLink(data[predict])
         }
-        if (e.key === 'Enter'){
+        if (e.key === 'Enter') {
             e.preventDefault()
             setplaying("playing")
             await setLink(data[value.text])
-            window.scrollTo(0,5000)
+            window.scroll(0,1000);
         }
-        if (e.key === "\\"){
+        if (e.key === "\\") {
             e.preventDefault()
         }
     }
