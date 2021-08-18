@@ -1,7 +1,7 @@
 import './comp.css';
 import React, { useEffect, useState } from "react";
 import styled from 'styled-components'
-import ReactPlayer from "react-player/lazy";
+import ReactPlayer from "react-player";
 import { javascriptData } from './data'
 
 const Container = styled.div`
@@ -58,7 +58,7 @@ const Homepage = (props) => {
             return <span>Press <b>enter</b> to continue</span>
         }
         const parts = predict?.split(new RegExp(`(${value.text})`, 'gi'));
-        return (<span>{parts?.map(part => part.toLowerCase() === value.text?.toLowerCase() ? <b>{part}</b> : part)}</span>);
+        return (<span onClick={()=>setValue({text:predict})}>{parts?.map(part => part.toLowerCase() === value.text?.toLowerCase() ? <b>{part}</b> : part)}</span>);
     }
 
     return (
@@ -71,14 +71,13 @@ const Homepage = (props) => {
                     placeholder="Search"
                     onKeyDown={handleKeyDown} />
             </div>
-            {link ? <ReactPlayer
+            <ReactPlayer
                 url={link}
                 className="react-player"
                 playing={playing}
                 width="100%"
                 height="100%"
-                controls
-            /> : null}
+                controls/>
         </Container>
 
     )

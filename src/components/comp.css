@@ -47,8 +47,8 @@ table {
 div.outside{
   display: flex;
   flex-direction: column;
-  margin-top: 10vh;
-  margin-bottom:10vh
+  margin-top: 30vh;
+  margin-bottom:52vh
 }
 span{
   margin-left: auto;
