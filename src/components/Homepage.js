@@ -30,7 +30,7 @@ const Homepage = (props) => {
             e.preventDefault()
             setplaying("playing")
             await setLink(data[value.text])
-            window.scroll(0,1000);
+            window.scroll(0,5000);
         }
         if (e.key === "\\") {
             e.preventDefault()
