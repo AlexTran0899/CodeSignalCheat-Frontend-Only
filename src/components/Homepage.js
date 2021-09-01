@@ -29,8 +29,10 @@ const Homepage = (props) => {
         if (e.key === 'Enter') {
             e.preventDefault()
             setplaying("playing")
-            await setLink(data[value.text])
-            window.scroll(0,5000);
+            await setLink(data[predict])
+            if(link !== 'https://youtu.be/HFZGS7zcccI' ){
+            window.scroll(0,5000)
+            }
         }
         if (e.key === "\\") {
             e.preventDefault()
