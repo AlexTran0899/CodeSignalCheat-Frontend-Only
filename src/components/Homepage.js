@@ -15,7 +15,7 @@ const Container = styled.div`
 const Homepage = (props) => {
     const [value, setValue] = useState("")
     const [predict, setPredict] = useState("")
-    const [link, setLink] = useState(false)
+    const [link, setLink] = useState('https://youtu.be/HFZGS7zcccI')
     const [data, setData] = useState(javascriptData)
     const [playing, setplaying] = useState("")
 
