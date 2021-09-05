@@ -27,6 +27,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+  background-color:#2B3D52;
 }
 ol, ul {
 	list-style: none;
@@ -82,4 +83,8 @@ input  {
 }
 b {
   color:white
+}
+.react-player{
+  margin: 2.5%;
+  height:100vh;
 }

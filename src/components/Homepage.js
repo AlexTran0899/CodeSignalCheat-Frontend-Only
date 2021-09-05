@@ -5,7 +5,6 @@ import ReactPlayer from "react-player";
 import { javascriptData } from './data'
 
 const Container = styled.div`
-    background: #2B3D52;
     background-attachment: fixed;
     background-size: cover;
     padding: .01%;
@@ -77,8 +76,8 @@ const Homepage = (props) => {
                 url={link}
                 className="react-player"
                 playing={playing}
-                width="100%"
-                height="100%"
+                width="95%"
+                height="95%"
                 controls/>
         </Container>
 
